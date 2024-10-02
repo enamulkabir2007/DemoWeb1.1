@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Tech</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="_next">
+    <div>
+      <div class="navbar bg-[#514280]">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn text-white font-bold btn-ghost lg:hidden mr-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"></path>
+              </svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow-x1 bg-[#059862]text-white rounded w-52">
+              <li>
+                <a>Category</a>
+                <ul class="p-2">
+                  <li>
+                    <a href="/category/cpu">CPU / Processor</a>
+                  </li>
+                  <li>
+                    <a href="/category/motherboard">Motherboard</a>
+                  </li>
+                  <li>
+                    <a href="/category/ram">RAM</a>
+                  </li>
+                  <li>
+                    <a href="/category/psu">Power Supply Unit</a>
+                  </li>
+                  <li>
+                    <a href="/category/storage">Storage Device</a>
+                  </li>
+                  <li>
+                    <a href="/category/monitor">Monitor</a>
+                  </li>
+                  <li>
+                    <a href="/category/others">Others</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <a class="font-bold text-slate-100 bg-none text-xl font-serif" href="/">E_TECH</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 z-[1] rounded">
+              <li tabindex="0">
+                  <details>
+                      <summary class="text-white font-semibold text-md hover:bg-[#059862] hover:rounded hover:text-white ">Category</summary>
+                      <ul class="p-2">
+                          <li>
+                              <a href="/category/cpu">CPU / Processor</a>
+                          </li>
+                          <li>
+                              <a href="/category/motherboard">Motherboard</a>
+                          </li>
+                          <li>
+                              <a href="/category/ram">RAM</a>
+                          </li>
+                          <li>
+                              <a href="/category/psu">Power Supply Unit</a>
+                          </li>
+                          <li>
+                              <a href="/category/storage">Storage Device</a>
+                          </li>
+                          <li>
+                              <a href="/category/monitor">Monitor</a>
+                          </li>
+                          <li>
+                              <a href="/category/others">Others</a>
+                          </li>
+                      </ul>
+                  </details>
+              </li>
+          </ul>
+      </div>
+      <div class="navbar-end">
+        <a href="/pc_builder">
+            <button class="rounded btn-sm border-none mr-3 bg-[#04AA6D] hover:bg-[#059862] text-white font-semibold ">Pc Builder</button>
+        </a>
+        <a href="/login">
+            <div class="flex justify-center items-center rounded btn-sm border-none mr-3 bg-[#04AA6D] hover:bg-[#059862] text-white font-semibold ">
+                <button class="text-white mr-3 text-xl">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user" class="svg-inline--fa fa-user " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor" d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"></path>
+                    </svg>
+                </button>
+                <button>
+                    <h6 class="text-sm text-white">Register or Login</h6>
+                </button>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="min-h-screen max-w-[1100px] mx-auto">
+        <div class="hero">
+            <div class="hero">
+                <div class="hero-content flex-col lg:flex-row">
+                    <img alt="" loading="lazy" width="400" height="200" decoding="async" data-nimg="1" class="max-w-sm rounded-lg shadow-2xl" style="color:transparent" srcSet="w=640&amp;q=75 1x,w=828&amp;q=75 2x" src="/assets/image.webp"/>
+                    <div>
+                        <h1 class="text-5xl font-bold">Unleash Your Ultimate Power: Build Your Perfect PC with Us!</h1>
+                        <p class="py-6">Crafting Dreams, One PC at a Time: Your Custom-Built PC Awaits!</p>
+                        <a href="/pc_builder">
+                            <button class="btn btn-sm border-none bg-[#04AA6D] rounded hover:bg-[#059862] text-white font-semibold ">Get Started</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="min-h-screen mt-8">
+            <h1 class="flex justify-center text-2xl text-purple-400 font-bold">
+                <span class="border-b-2 border-purple-400">Our Featured Products</span>
+            </h1>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+                <a href="/details/64df26c162a2fb04cc82b982">
+                    <div class=" bg-white mt-5 rounded shadow-lg hover:border hover:border-orange-600">
+                        <figure class="mx-auto">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/processor/Intel/i3-10100/i3-10100-228x228.jpg" alt="" class="w-full h-1/2"/>
+                        </figure>
+                        <hr class="mt-3"/>
+                        <div class="card-body">
+                            <h2 class=" text-md font-semibold text-cyan-700">Intel 10th Gen Core i3 10100
+                            <!-- -->
+                            ..</h2>
+                            <h3 class="text-sm text-cyan-700">Category: 
+                            <!-- -->
+                            CPU / Processor</h3>
+                            <h3 class="text-sm text-red-600 font-semibold">Price: 
+                            <!-- -->
+                            8200</h3>
+                            <h3 class="text-sm text-pink-500">Available: 
+                            <!-- -->
+                            In Stock</h3>
+                            <h3 class="text-sm text-cyan-700">Rating: 
+                            <!-- -->
+                            4.7</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/details/64df2760208e16b031cb67a6">
+                    <div class=" bg-white mt-5 rounded shadow-lg hover:border hover:border-orange-600">
+                        <figure class="mx-auto">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/processor/AMD/ryzen-3-4100/amd-ryzen-3-4100-01-500x500.jpg" alt="" class="w-full h-1/2"/>
+                        </figure>
+                        <hr class="mt-3"/>
+                        <div class="card-body">
+                            <h2 class=" text-md font-semibold text-cyan-700">AMD Ryzen 3 4100 Processor
+                            <!-- -->
+                            ..</h2>
+                            <h3 class="text-sm text-cyan-700">Category: 
+                            <!-- -->
+                            CPU / Processor</h3>
+                            <h3 class="text-sm text-red-600 font-semibold">Price: 
+                            <!-- -->
+                            10300</h3>
+                            <h3 class="text-sm text-pink-500">Available: 
+                            <!-- -->
+                            In Stock</h3>
+                            <h3 class="text-sm text-cyan-700">Rating: 
+                            <!-- -->
+                            4.7</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/details/64df27d8208e16b031cb67a9">
+                    <div class=" bg-white mt-5 rounded shadow-lg hover:border hover:border-orange-600">
+                        <figure class="mx-auto">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/processor/Intel/i3-10100/i3-10100-500x500.jpg" alt="" class="w-full h-1/2"/>
+                        </figure>
+                        <hr class="mt-3"/>
+                        <div class="card-body">
+                            <h2 class=" text-md font-semibold text-cyan-700">Intel 10th Gen Core i3 10100
+                            <!-- -->
+                            ..</h2>
+                            <h3 class="text-sm text-cyan-700">Category: 
+                            <!-- -->
+                            CPU / Processor</h3>
+                            <h3 class="text-sm text-red-600 font-semibold">Price: 
+                            <!-- -->
+                            11800</h3>
+                            <h3 class="text-sm text-pink-500">Available: 
+                            <!-- -->
+                            In Stock</h3>
+                            <h3 class="text-sm text-cyan-700">Rating: 
+                            <!-- -->
+                            4.7</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/details/64e2357aeebf3d4945e23ced">
+                    <div class=" bg-white mt-5 rounded shadow-lg hover:border hover:border-orange-600">
+                        <figure class="mx-auto">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/motherboard/msi/b450m-a-pro-max-ii/b450m-a-pro-max-ii-01-500x500.webp" alt="" class="w-full h-1/2"/>
+                        </figure>
+                        <hr class="mt-3"/>
+                        <div class="card-body">
+                            <h2 class=" text-md font-semibold text-cyan-700">MSI B450M-A PRO MAX II AMD A
+                            <!-- -->
+                            ..</h2>
+                            <h3 class="text-sm text-cyan-700">Category: 
+                            <!-- -->
+                            motherboard</h3>
+                            <h3 class="text-sm text-red-600 font-semibold">Price: 
+                            <!-- -->
+                            8900</h3>
+                            <h3 class="text-sm text-pink-500">Available: 
+                            <!-- -->
+                            In Stock</h3>
+                            <h3 class="text-sm text-cyan-700">Rating: 
+                            <!-- -->
+                            4.7</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/details/64e2362aeebf3d4945e23cf2">
+                    <div class=" bg-white mt-5 rounded shadow-lg hover:border hover:border-orange-600">
+                        <figure class="mx-auto">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/Motherboard/Gigabyte/GIGABYTE%20GA-J1800M-D3P/GIGABYTE%20GA-J1800M-D3P-1-500x500.jpg" alt="" class="w-full h-1/2"/>
+                        </figure>
+                        <hr class="mt-3"/>
+                        <div class="card-body">
+                            <h2 class=" text-md font-semibold text-cyan-700">GIGABYTE GA-J1800M-D3P Mothe
+                            <!-- -->
+                            ..</h2>
+                            <h3 class="text-sm text-cyan-700">Category: 
+                            <!-- -->
+                            motherboard</h3>
+                            <h3 class="text-sm text-red-600 font-semibold">Price: 
+                            <!-- -->
+                            6500</h3>
+                            <h3 class="text-sm text-pink-500">Available: 
+                            <!-- -->
+                            In Stock</h3>
+                            <h3 class="text-sm text-cyan-700">Rating: 
+                            <!-- -->
+                            4.7</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/details/64e239a833680e0ee6fff67d">
+                    <div class=" bg-white mt-5 rounded shadow-lg hover:border hover:border-orange-600">
+                        <figure class="mx-auto">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/component/laptop-ram/samsung/4gb-ddr3/4gb-ddr3-500x500.jpg" alt="" class="w-full h-1/2"/>
+                        </figure>
+                        <hr class="mt-3"/>
+                        <div class="card-body">
+                            <h2 class=" text-md font-semibold text-cyan-700">Samsung 4GB 1600MHz DDR3 PC3
+                            <!-- -->
+                            ..</h2>
+                            <h3 class="text-sm text-cyan-700">Category: 
+                            <!-- -->
+                            RAM</h3>
+                            <h3 class="text-sm text-red-600 font-semibold">Price: 
+                            <!-- -->
+                            1500</h3>
+                            <h3 class="text-sm text-pink-500">Available: 
+                            <!-- -->
+                            In Stock</h3>
+                            <h3 class="text-sm text-cyan-700">Rating: 
+                            <!-- -->
+                            4.7</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/details/64e23a0bca0deba276c91ad5">
+                    <div class=" bg-white mt-5 rounded shadow-lg hover:border hover:border-orange-600">
+                        <figure class="mx-auto">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/ram/transcend/jm-ddr4/jm3200hsh-4g-500x500.jpg" alt="" class="w-full h-1/2"/>
+                        </figure>
+                        <hr class="mt-3"/>
+                        <div class="card-body">
+                            <h2 class=" text-md font-semibold text-cyan-700">Transcend 4GB JM DDR4 3200Mh
+                            <!-- -->
+                            ..</h2>
+                            <h3 class="text-sm text-cyan-700">Category: 
+                            <!-- -->
+                            RAM</h3>
+                            <h3 class="text-sm text-red-600 font-semibold">Price: 
+                            <!-- -->
+                            1500</h3>
+                            <h3 class="text-sm text-pink-500">Available: 
+                            <!-- -->
+                            In Stock</h3>
+                            <h3 class="text-sm text-cyan-700">Rating: 
+                            <!-- -->
+                            4.7</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/details/64e23a7dca0deba276c91ada">
+                    <div class=" bg-white mt-5 rounded shadow-lg hover:border hover:border-orange-600">
+                        <figure class="mx-auto">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/ram/team/elite-8g-3200/elite-8g-500x500.jpg" alt="" class="w-full h-1/2"/>
+                        </figure>
+                        <hr class="mt-3"/>
+                        <div class="card-body">
+                            <h2 class=" text-md font-semibold text-cyan-700">TEAM ELITE 8GB 3200MHz Lapto
+                            <!-- -->
+                            ..</h2>
+                            <h3 class="text-sm text-cyan-700">Category: 
+                            <!-- -->
+                            RAM</h3>
+                            <h3 class="text-sm text-red-600 font-semibold">Price: 
+                            <!-- -->
+                            2200</h3>
+                            <h3 class="text-sm text-pink-500">Available: 
+                            <!-- -->
+                            In Stock</h3>
+                            <h3 class="text-sm text-cyan-700">Rating: 
+                            <!-- -->
+                            4.7</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/details/64e240c45e7e1abb9ceaab0e">
+                    <div class=" bg-white mt-5 rounded shadow-lg hover:border hover:border-orange-600">
+                        <figure class="mx-auto">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/processor/amd/Athlon/athlon-500x500.jpg" alt="" class="w-full h-1/2"/>
+                        </figure>
+                        <hr class="mt-3"/>
+                        <div class="card-body">
+                            <h2 class=" text-md font-semibold text-cyan-700">AMD Athlon 200GE AM4 Socket 
+                            <!-- -->
+                            ..</h2>
+                            <h3 class="text-sm text-cyan-700">Category: 
+                            <!-- -->
+                            motherboard</h3>
+                            <h3 class="text-sm text-red-600 font-semibold">Price: 
+                            <!-- -->
+                            7000</h3>
+                            <h3 class="text-sm text-pink-500">Available: 
+                            <!-- -->
+                            In Stock</h3>
+                            <h3 class="text-sm text-cyan-700">Rating: 
+                            <!-- -->
+                            4.8</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/details/64e2433708a216791d8cc192">
+                    <div class=" bg-white mt-5 rounded shadow-lg hover:border hover:border-orange-600">
+                        <figure class="mx-auto">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/power-supply/antec/meta-v550/meta-v550-01-500x500.webp" alt="" class="w-full h-1/2"/>
+                        </figure>
+                        <hr class="mt-3"/>
+                        <div class="card-body">
+                            <h2 class=" text-md font-semibold text-cyan-700">Antec META V550 550W Power S
+                            <!-- -->
+                            ..</h2>
+                            <h3 class="text-sm text-cyan-700">Category: 
+                            <!-- -->
+                            PSU</h3>
+                            <h3 class="text-sm text-red-600 font-semibold">Price: 
+                            <!-- -->
+                            3200</h3>
+                            <h3 class="text-sm text-pink-500">Available: 
+                            <!-- -->
+                            In Stock</h3>
+                            <h3 class="text-sm text-cyan-700">Rating: 
+                            <!-- -->
+                            4.8</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/details/64e2445608a216791d8cc196">
+                    <div class=" bg-white mt-5 rounded shadow-lg hover:border hover:border-orange-600">
+                        <figure class="mx-auto">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/power-supply/Antec/hcg1000-extreme/antec-hcg1000-extreme-1-500x500.jpg" alt="" class="w-full h-1/2"/>
+                        </figure>
+                        <hr class="mt-3"/>
+                        <div class="card-body">
+                            <h2 class=" text-md font-semibold text-cyan-700">Antec HCG1000 Extreme 1000 W
+                            <!-- -->
+                            ..</h2>
+                            <h3 class="text-sm text-cyan-700">Category: 
+                            <!-- -->
+                            PSU</h3>
+                            <h3 class="text-sm text-red-600 font-semibold">Price: 
+                            <!-- -->
+                            18300</h3>
+                            <h3 class="text-sm text-pink-500">Available: 
+                            <!-- -->
+                            In Stock</h3>
+                            <h3 class="text-sm text-cyan-700">Rating: 
+                            <!-- -->
+                            4.8</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/details/64e2455f08a216791d8cc19a">
+                    <div class=" bg-white mt-5 rounded shadow-lg hover:border hover:border-orange-600">
+                        <figure class="mx-auto">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/power-supply/corsair/cv650/cv650-1-500x500.jpg" alt="" class="w-full h-1/2"/>
+                        </figure>
+                        <hr class="mt-3"/>
+                        <div class="card-body">
+                            <h2 class=" text-md font-semibold text-cyan-700">Corsair CV650 650Watt 80 Plu
+                            <!-- -->
+                            ..</h2>
+                            <h3 class="text-sm text-cyan-700">Category: 
+                            <!-- -->
+                            PSU</h3>
+                            <h3 class="text-sm text-red-600 font-semibold">Price: 
+                            <!-- -->
+                            5500</h3>
+                            <h3 class="text-sm text-pink-500">Available: 
+                            <!-- -->
+                            In Stock</h3>
+                            <h3 class="text-sm text-cyan-700">Rating: 
+                            <!-- -->
+                            4.8</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/details/64e246c208a216791d8cc19e">
+                    <div class=" bg-white mt-5 rounded shadow-lg hover:border hover:border-orange-600">
+                        <figure class="mx-auto">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/hdd/seagate/barracuda/barracuda-0010-500x500.jpg" alt="" class="w-full h-1/2"/>
+                        </figure>
+                        <hr class="mt-3"/>
+                        <div class="card-body">
+                            <h2 class=" text-md font-semibold text-cyan-700">Seagate Barracuda 2TB 2.5 In
+                            <!-- -->
+                            ..</h2>
+                            <h3 class="text-sm text-cyan-700">Category: 
+                            <!-- -->
+                            storage</h3>
+                            <h3 class="text-sm text-red-600 font-semibold">Price: 
+                            <!-- -->
+                            8400</h3>
+                            <h3 class="text-sm text-pink-500">Available: 
+                            <!-- -->
+                            In Stock</h3>
+                            <h3 class="text-sm text-cyan-700">Rating: 
+                            <!-- -->
+                            4.8</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/details/64e2474a08a216791d8cc1a1">
+                    <div class=" bg-white mt-5 rounded shadow-lg hover:border hover:border-orange-600">
+                        <figure class="mx-auto">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/ssd/hp-ssd/ex900-plus/ex900-plus-256gb-01-500x500.webp" alt="" class="w-full h-1/2"/>
+                        </figure>
+                        <hr class="mt-3"/>
+                        <div class="card-body">
+                            <h2 class=" text-md font-semibold text-cyan-700">HP EX900 PLUS 256GB M.2 PCIe
+                            <!-- -->
+                            ..</h2>
+                            <h3 class="text-sm text-cyan-700">Category: 
+                            <!-- -->
+                            storage</h3>
+                            <h3 class="text-sm text-red-600 font-semibold">Price: 
+                            <!-- -->
+                            2250</h3>
+                            <h3 class="text-sm text-pink-500">Available: 
+                            <!-- -->
+                            In Stock</h3>
+                            <h3 class="text-sm text-cyan-700">Rating: 
+                            <!-- -->
+                            4.8</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/details/64e247b208a216791d8cc1a4">
+                    <div class=" bg-white mt-5 rounded shadow-lg hover:border hover:border-orange-600">
+                        <figure class="mx-auto">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/ssd/hp-ssd/ex900-plus-512gb/ex900-plus-512gb-01-500x500.webp" alt="" class="w-full h-1/2"/>
+                        </figure>
+                        <hr class="mt-3"/>
+                        <div class="card-body">
+                            <h2 class=" text-md font-semibold text-cyan-700">HP EX900 PLUS 512GB M.2 PCIe
+                            <!-- -->
+                            ..</h2>
+                            <h3 class="text-sm text-cyan-700">Category: 
+                            <!-- -->
+                            storage</h3>
+                            <h3 class="text-sm text-red-600 font-semibold">Price: 
+                            <!-- -->
+                            3400</h3>
+                            <h3 class="text-sm text-pink-500">Available: 
+                            <!-- -->
+                            In Stock</h3>
+                            <h3 class="text-sm text-cyan-700">Rating: 
+                            <!-- -->
+                            4.8</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/details/64e24a845dfcf6cb32507558">
+                    <div class=" bg-white mt-5 rounded shadow-lg hover:border hover:border-orange-600">
+                        <figure class="mx-auto">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/monitor/univision/led350/led350-01-228x228.png" alt="" class="w-full h-1/2"/>
+                        </figure>
+                        <hr class="mt-3"/>
+                        <div class="card-body">
+                            <h2 class=" text-md font-semibold text-cyan-700">PHILIPS 18.5 193V5LSB2 LED M
+                            <!-- -->
+                            ..</h2>
+                            <h3 class="text-sm text-cyan-700">Category: 
+                            <!-- -->
+                            MONITOR</h3>
+                            <h3 class="text-sm text-red-600 font-semibold">Price: 
+                            <!-- -->
+                            8500</h3>
+                            <h3 class="text-sm text-pink-500">Available: 
+                            <!-- -->
+                            In Stock</h3>
+                            <h3 class="text-sm text-cyan-700">Rating: 
+                            <!-- -->
+                            4.4</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/details/64e24b0d6935f8f440bcd1ea">
+                    <div class=" bg-white mt-5 rounded shadow-lg hover:border hover:border-orange-600">
+                        <figure class="mx-auto">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/monitor/hp-monitor/P204v/P204v-500x500.jpg" alt="" class="w-full h-1/2"/>
+                        </figure>
+                        <hr class="mt-3"/>
+                        <div class="card-body">
+                            <h2 class=" text-md font-semibold text-cyan-700">HP P204v 19.5 Inch HD LED Mo
+                            <!-- -->
+                            ..</h2>
+                            <h3 class="text-sm text-cyan-700">Category: 
+                            <!-- -->
+                            MONITOR</h3>
+                            <h3 class="text-sm text-red-600 font-semibold">Price: 
+                            <!-- -->
+                            8500</h3>
+                            <h3 class="text-sm text-pink-500">Available: 
+                            <!-- -->
+                            In Stock</h3>
+                            <h3 class="text-sm text-cyan-700">Rating: 
+                            <!-- -->
+                            4.4</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/details/64e24b4e6935f8f440bcd1ef">
+                    <div class=" bg-white mt-5 rounded shadow-lg hover:border hover:border-orange-600">
+                        <figure class="mx-auto">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/monitor/lenovo/v20-10/V20-10-03-500x500.webp" alt="" class="w-full h-1/2"/>
+                        </figure>
+                        <hr class="mt-3"/>
+                        <div class="card-body">
+                            <h2 class=" text-md font-semibold text-cyan-700">Lenovo V20-10 19.5-inch LED 
+                            <!-- -->
+                            ..</h2>
+                            <h3 class="text-sm text-cyan-700">Category: 
+                            <!-- -->
+                            MONITOR</h3>
+                            <h3 class="text-sm text-red-600 font-semibold">Price: 
+                            <!-- -->
+                            8500</h3>
+                            <h3 class="text-sm text-pink-500">Available: 
+                            <!-- -->
+                            In Stock</h3>
+                            <h3 class="text-sm text-cyan-700">Rating: 
+                            <!-- -->
+                            4.4</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/details/64e24bcb6935f8f440bcd1f3">
+                    <div class=" bg-white mt-5 rounded shadow-lg hover:border hover:border-orange-600">
+                        <figure class="mx-auto">
+                            <img src="https://www.startech.com.bd/image/cache/data/K120-500x500.png" alt="" class="w-full h-1/2"/>
+                        </figure>
+                        <hr class="mt-3"/>
+                        <div class="card-body">
+                            <h2 class=" text-md font-semibold text-cyan-700">Logitech K120 Usb Keyboard W
+                            <!-- -->
+                            ..</h2>
+                            <h3 class="text-sm text-cyan-700">Category: 
+                            <!-- -->
+                            others</h3>
+                            <h3 class="text-sm text-red-600 font-semibold">Price: 
+                            <!-- -->
+                            810</h3>
+                            <h3 class="text-sm text-pink-500">Available: 
+                            <!-- -->
+                            In Stock</h3>
+                            <h3 class="text-sm text-cyan-700">Rating: 
+                            <!-- -->
+                            4.4</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/details/64e24bfe6935f8f440bcd1f6">
+                    <div class=" bg-white mt-5 rounded shadow-lg hover:border hover:border-orange-600">
+                        <figure class="mx-auto">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/mouse/aula/s11-pro/s11-pro-blue-02-500x500.webp" alt="" class="w-full h-1/2"/>
+                        </figure>
+                        <hr class="mt-3"/>
+                        <div class="card-body">
+                            <h2 class=" text-md font-semibold text-cyan-700">AULA S11 Pro Wired Gaming Mo
+                            <!-- -->
+                            ..</h2>
+                            <h3 class="text-sm text-cyan-700">Category: 
+                            <!-- -->
+                            others</h3>
+                            <h3 class="text-sm text-red-600 font-semibold">Price: 
+                            <!-- -->
+                            700</h3>
+                            <h3 class="text-sm text-pink-500">Available: 
+                            <!-- -->
+                            In Stock</h3>
+                            <h3 class="text-sm text-cyan-700">Rating: 
+                            <!-- -->
+                            4.4</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/details/64e24c6b6935f8f440bcd1f9">
+                    <div class=" bg-white mt-5 rounded shadow-lg hover:border hover:border-orange-600">
+                        <figure class="mx-auto">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/casing/deepcool/cyclops/cyclops-01-500x500.webp" alt="" class="w-full h-1/2"/>
+                        </figure>
+                        <hr class="mt-3"/>
+                        <div class="card-body">
+                            <h2 class=" text-md font-semibold text-cyan-700">DeepCool CYCLOPS Mid-Tower G
+                            <!-- -->
+                            ..</h2>
+                            <h3 class="text-sm text-cyan-700">Category: 
+                            <!-- -->
+                            others</h3>
+                            <h3 class="text-sm text-red-600 font-semibold">Price: 
+                            <!-- -->
+                            700</h3>
+                            <h3 class="text-sm text-pink-500">Available: 
+                            <!-- -->
+                            In Stock</h3>
+                            <h3 class="text-sm text-cyan-700">Rating: 
+                            <!-- -->
+                            4.4</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+      </div>
+      <footer class="footer footer-container my-10 p-10 mb-0 text-base-content bg-[#081621]">
+        <div>
+            <span class="footer-title text-white font-bold text-xl">Services</span>
+            <span class="link link-hover text-teal-500 font-semibold">Branding</span>
+            <span class="link link-hover text-[#355966]  ">Design</span>
+            <span class="link link-hover text-[#355966]">Marketing</span>
+            <span class="link link-hover text-[#355966]">Advertisement</span>
+        </div>
+        <div>
+            <span class="footer-title text-white font-bold text-xl">Contact</span>
+            <span href="" class="link link-hover text-teal-500 font-semibold">Contact Us</span>
+        </div>
+        <div>
+            <span class="footer-title text-white font-bold text-xl">Account</span>
+            <span href="" class="link link-hover text-teal-500 font-semibold">Ticket</span>
+            <span href="" class="link link-hover text-[#355966]">FAQs</span>
+        </div>
+        <div>
+            <span class="footer-title text-white font-bold text-xl">About</span>
+            <span href="" class="link link-hover text-teal-500 font-semibold ">About us</span>
+            <span href="" class="link link-hover text-[#355966] ">Terms &amp;Conditions</span>
+            <span href="" class="link link-hover text-[#355966]">Privacy Policy</span>
+            <span href="" class="link link-hover text-[#355966]">Return Policy</span>
+        </div>
+        <div>
+            <span class="footer-title text-white font-bold text-xl">Social</span>
+        </div>
+      </footer>
+    </div>
+    <div style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"></div>
+  </div>
+  
+</body>
+</html>
